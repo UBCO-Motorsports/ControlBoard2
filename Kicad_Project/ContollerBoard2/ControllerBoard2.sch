@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:ControllerBoard2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1216,21 +1217,10 @@ F 3 "" H 5000 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCU_ST_STM32F3:STM32F303K6Tx U?
-U 1 1 5F6908E6
-P -900 3900
-F 0 "U?" H -950 2811 50  0000 C CNN
-F 1 "STM32F303K6Tx" H -950 2720 50  0000 C CNN
-F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H -1400 3000 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00092070.pdf" H -900 3900 50  0001 C CNN
-	1    -900 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Lukas_Library:UJA1075A-3.3 U?
+L Lukas_Library:UJA1075A-3.3 U2
 U 1 1 5F69D58B
 P 5000 1650
-F 0 "U?" H 5000 2131 50  0000 C CNN
+F 0 "U2" H 5000 2131 50  0000 C CNN
 F 1 "UJA1075A-3.3" H 5000 2040 50  0000 C CNN
 F 2 "Package_SO:TSSOP-32_6.1x11mm_P0.65mm" H 5100 -850 50  0001 C CNN
 F 3 "https://www.nxp.com/docs/en/data-sheet/UJA1075A.pdf" H 5000 250 50  0001 C CNN
