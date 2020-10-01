@@ -1,17 +1,5 @@
 "/Users/lukasvozenilek/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/lukasvozenilek/UBCOMotorsports-Git/ControlBoard2/STM32_Project/ControlBoard2
--- The C compiler identification is unknown
-CMake Error at CMakeLists.txt:17 (project):
-  The CMAKE_C_COMPILER:
-
-    /usr/local/bin/arm-none-eabi-gcc/arm-none-eabi-gcc
-
-  is not a full path to an existing compiler tool.
-
-  Tell CMake where to find the compiler by setting either the environment
-  variable "CC" or the CMake cache entry CMAKE_C_COMPILER to the full path to
-  the compiler, or to the compiler name if it is in the PATH.
-
-
--- Configuring incomplete, errors occurred!
-See also "/Users/lukasvozenilek/UBCOMotorsports-Git/ControlBoard2/STM32_Project/ControlBoard2/cmake-build-debug/CMakeFiles/CMakeOutput.log".
-See also "/Users/lukasvozenilek/UBCOMotorsports-Git/ControlBoard2/STM32_Project/ControlBoard2/cmake-build-debug/CMakeFiles/CMakeError.log".
+-- Minimal optimization, debug info included
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/lukasvozenilek/UBCOMotorsports-Git/ControlBoard2/STM32_Project/ControlBoard2/cmake-build-debug
